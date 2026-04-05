@@ -8,64 +8,77 @@
   <style>
     body {
       margin: 0;
-      background: #000;
+      background-color: #000;
       color: #fff;
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
-      text-align: center;
-      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      padding: 60px 20px;
     }
 
     .container {
-      max-width: 600px;
-      margin: 0 auto;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
     }
 
-    img {
-      max-width: 120px;
-      height: auto;
+    /* Logo */
+    .logo img {
+      width: 140px;
+      margin-bottom: 40px;
     }
 
-    .logo {
-      margin-bottom: 30px;
-    }
-
+    /* Headings */
     h1 {
-      font-size: 28px;
-      margin: 10px 0;
+      font-size: 26px;
+      margin-bottom: 20px;
+      font-weight: 600;
     }
 
     h2 {
-      font-size: 22px;
-      margin: 20px 0 10px;
+      font-size: 20px;
+      margin-top: 12px;
+      font-weight: 500;
     }
 
+    /* Sections */
     .section {
-      margin-top: 40px;
+      margin-top: 50px;
     }
 
+    /* App icon */
+    .app-icon {
+      width: 90px;
+      border-radius: 20px;
+    }
+
+    /* Contact */
     a {
-      color: #ccc;
+      color: #aaa;
       text-decoration: none;
+      font-size: 16px;
     }
 
     a:hover {
+      color: #fff;
       text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
 
     <!-- Logo -->
     <div class="logo">
-      <img src="logo.png" alt="Logo">
+      <img src="logo.png" alt="One Rose Studios Logo">
     </div>
 
-    <!-- Apps Section -->
+    <!-- Apps -->
     <div class="section">
       <h1>Apps</h1>
 
-      <img src="app-icon.png" alt="App Icon">
+      <img src="icon.png" alt="Lumen App Icon" class="app-icon">
       <h2>Lumen</h2>
     </div>
 
@@ -73,7 +86,9 @@
     <div class="section">
       <h1>Contact Us</h1>
       <p>
-        <a href="mailto:your@email.com">your@email.com</a>
+        <a href="mailto:support@onerosestudios.com">
+          support@onerosestudios.com
+        </a>
       </p>
     </div>
 
